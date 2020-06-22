@@ -37,7 +37,7 @@ for (i = 1; i <= 10; i++) {
     // document.write(num, " x ", i, " = ", num * i, "<br>");
 }
 var num1 = 5;
-for(i=1; i<=10 ; i++){
+for (i = 1; i <= 10; i++) {
     // document.write(num1, " x ", i, " = ", num1 * i, "<br>");
 
 }
@@ -50,19 +50,48 @@ var marksForEach = 100;
 var obt1 = +prompt("Enter marks obtained in subject1");
 var obt2 = +prompt("Enter marks obtained in subject2");
 var obt3 = +prompt("Enter marks obtained in subject3");
-var totalMarks = marksForEach+marksForEach+marksForEach;
-var totalObt = obt1+obt2+obt3;
-var per1 = obt1/marksForEach*100;
-var per2 = obt2/marksForEach*100;
-var per3 = obt3/marksForEach*100;
-var totalPer = totalObt/totalMarks*100;
+var totalMarks = marksForEach + marksForEach + marksForEach;
+var totalObt = obt1 + obt2 + obt3;
+var per1 = obt1 / marksForEach * 100;
+var per2 = obt2 / marksForEach * 100;
+var per3 = obt3 / marksForEach * 100;
+var totalPer = totalObt / totalMarks * 100;
 
-document.write("<table>","<tr>", "<th>","Subject "," Total Marks "," Obtained Marks "," Percentage ","</th>","</tr>","</table>");
+document.write("<table border='0'>");
+document.write("<tr>");
+document.write("<th>Subjet</th>");
+document.write("<th>Total Marks</th>");
+document.write("<th>ObtainedMarks</th>");
+document.write("<th>Percentage</th>");
+document.write("</tr>");
 
+document.write("<tr>");
+document.write("<td>",sub1,"</td>");
+document.write("<td>",marksForEach,"</td>");
+document.write("<td>",obt1,"</td>");
+document.write("<td>",per1+"%","</td>");
+document.write("</tr>");
 
+document.write("<tr>");
+document.write("<td>",sub2,"</td>");
+document.write("<td>",marksForEach,"</td>");
+document.write("<td>",obt2,"</td>");
+document.write("<td>",per2+"%","</td>");
+document.write("</tr>");
 
+document.write("<tr>");
+document.write("<td>",sub3,"</td>");
+document.write("<td>",marksForEach,"</td>");
+document.write("<td>",obt3,"</td>");
+document.write("<td>",per3+"%","</td>");
+document.write("</tr>");
 
+document.write("<tr>");
+document.write("<td>","<br>&nbsp;&nbsp;",totalMarks,"</td>");
+document.write("<td>","<br>",totalObt,"</td>");
+document.write("<td>","<br>",totalPer,"</td>");
+document.write("</tr>");
 
-// document.write("<table>","<tr>", "<td>", sub1 ,"</td","<td>", marksForEach ,"</td","<td>", obt1 ,"</td","<td>", per1 ,"</td","</tr>","</table>");
+document.write("</table>");
 
 
