@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background: #000;
+}
+.heading{
+    color: #FF1493;
+    display: inline-block;
+    font-size: 40px;
+    font-family: Script Mt;
+    margin-top: 80px;
+}
+.num{
+    color: #FF1493;
+    display: inline-block;
+    width: 58px;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.name1{
+    color: #FFf;
+    width: 70px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.btn{
+    background-color: #FFf;
+    color:#FF1493;
+    border-radius: 50%;
+    padding: 18px 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.back{
+    float: left;
+    background-color: #FF1493;
+    margin-left: 46%;
+    margin-top: 30px;
+}
+.back a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
